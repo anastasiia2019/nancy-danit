@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+/*HEADER*/
+
+.logo {
+    border: 1px solid #ffffff;
+    margin-top: 61px;
+    margin-bottom: 45px;
+    display: inline-block;
+}
+
+.logo-left-part {
+    font-family: 'Myriad Pro Regular',sans-serif;
+    color: #000000;
+    font-size: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo-right-part {
+    font-family: 'Myriad Pro Regular',sans-serif;
+    color: #4bcaff;
+    font-size: 80px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.menu {
+    background-color: #35444f;
+    width: 1280px;
+    height: 69px;
+    display: inline-block;
+
+}
+
+.menu-a {
+    float: left;
+    font-family: 'Myriad Pro Regular',sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    padding: 23px 41px;
+    text-decoration: none;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+
+}
+
+.menu-a:hover {
+    background-color: #222f3a;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb
+
+}
+
+.menu-li:first-child {
+    padding-left: 203px;
+
+}
+
+
+.menu-li {
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+}
+
+/*CONTENT*/
+
+.main-menu{
+
+    position: relative;
+}
+
+/*LEFT_MENU*/
+.left-menu{
+    width: 344px;
+    outline: 1px solid #000000;
+    margin-top: 51px;
+    margin-right: 51px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+.left-menu-ul {
+
+    width: 344px;
+    outline: 1px solid #000000;
+    margin-top: 51px;
+    margin-right: 51px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+}
+
+.left-menu-a {
+
+    background-color: rgb(255, 255, 255);
+    font-family: 'Myriad Pro Regular',sans-serif;
+    color: #485863;
+    font-size: 26.99px;
+    line-height: 88.867px;
+    padding-left: 44px;
+    text-decoration: none;
+    display: block;
+}
+
+.left-menu-a:hover {
+    background-color: #dcdcdc;;
+    padding-left: 70px;
+
+}
+
+/*CONTENT_BARAN IMG*/
+
+
+.right-menu {
+    width: 880px;
+    height: 529px;
+    display: inline-block;
+    /*float: right;*/
+    outline: 1px solid #000000;
+    font-size: 18px;
+    margin-top: 51px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+
+.right-menu-img {
+    position: absolute;
+    top: 13%;
+    left: 30%;
+}
+
+img {
+    width: 320px;
+    height: 381px;
+
+
+
+}
+
+img:hover {
+    transform: scale(1.25);
+    transition-duration: transform 0.3s;
+}
+
+
+
+.text-container {
+
+    display: inline-block;
+    margin-left: 430px;
+    margin-top: 130px;
+    margin-bottom: 51px;
+    margin-right: 10px;
+
+
+}
+.text{
+    font-family: 'Myriad Pro Regular',sans-serif;
+    color: #2c2b2b;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.text:last-child {
+    margin-top: 25px;
+
+
+}
+
+
+/*Footer*/
+
+.footer {
+    clear: both;
+
+}
+
+.navbar {
+    background-color: rgb(181, 184, 187);
+    height: 69px;
+}
+
+.footer-p {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.footer-a {
+    text-decoration: none;
+    font-family: 'Myriad Pro Regular',sans-serif;
+    color: #0c1927;
+    font-size: 28px;
+
+
+    line-height: 69px;
+    text-align: center;
+    margin-left: 44px;
+    margin-bottom: 21px;
+
+}
+
+.footer-a:hover {
+
+    font-family: 'Myriad Pro Regular',sans-serif;
+    color: #3181a6;
+    font-size: 28px;
+    line-height: 69px;
+    text-decoration: underline;
+}
+
+.copy {
+    text-decoration: none;
+    margin-right: 34px;
+    margin-left: 218px;
+    margin-bottom: 21px;
+    display: inline-block;
+    font-family: 'Myriad Pro Regular',sans-serif;
+    color: #010000;
+    font-size: 24px;
+    line-height: 69px;
+    float: right;
+
+
+}
+

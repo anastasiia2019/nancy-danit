@@ -1,0 +1,293 @@
+@font-face {
+    font-family: '';
+    src: url('../fonts/verdana.ttf');
+url('../fonts/verdana.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+
+    width: 1366px;
+    height: 768px;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px auto;
+
+}
+.container{
+    width: 1366px;
+    height: 768px;
+    margin: 0 auto;
+
+}
+
+header{
+    width:1064px;
+    height: 45px;
+    margin-top: 49px;
+}
+
+
+.logo-link {
+    position: relative;
+    text-decoration: none;
+
+}
+
+.logo-img {
+    width: 46px;
+    height: 44px;
+    float: left;
+    margin-top: 49px;
+    margin-left: 155px;
+    filter: brightness(0) invert(1);
+}
+
+.link-hover {
+    color: #f26522;
+}
+
+.logo-text-top {
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 216px;
+    margin-top: 49px;
+
+}
+
+.logo-text-bottom {
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 216px;
+    margin-top: 80px;
+
+}
+
+.logo-link:hover > .logo-text-bottom, .logo-link:hover > .logo-text-top {
+    color: #f26522;
+
+
+}
+
+.logo-link:hover > .logo-img {
+    filter: none;
+
+}
+
+
+.contacts {
+    display: block;
+    float: right;
+    margin-top: 57px;
+    margin-right: 147px;
+}
+
+.contacts-info {
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+.content {
+    width: 1107px;
+    height: 547px;
+    margin-top: 39px;
+}
+.tours {
+    margin:39px 126px 88px 133px;
+    width: 1107px;
+    height: 547px;
+    /*float: left;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    float: left;
+    width: 355px;
+    height: 249px;
+    margin: 6px;
+    position: relative;
+
+}
+
+.layer {
+    width: 312px;
+    height: 205px;
+    margin: 8px 24px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 17px 17px 24px 0 black;
+    border-image: linear-gradient(white, black);
+
+
+}
+
+.layer-item {
+    position: absolute;
+    width: 308px;
+    height: 200px;
+    background-image: url("../img/css_sprites (2).png");
+    background-position: -338px -231px;
+    /*background-image: linear-gradient(white, black);*/
+    /*border: 2px solid #000;*/
+}
+
+
+.overlay {
+    position: absolute;
+    top: 137px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 63px;
+    width: 308px;
+    overflow: hidden;
+    opacity: 0;
+
+}
+
+
+.layer-item:hover > .overlay {
+    color: white;
+    background-color: rgb(242, 101, 34);
+    position: relative;
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+    line-height: 21px;
+    opacity: 1;
+    transition-duration: 0.4s;
+
+}
+
+.overlay-price {
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 21px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay-price-span {
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21px;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay-price-a::after {
+    content: ' >';
+    opacity: 1;
+    width: 7px;
+    height: 10px;
+}
+
+.overlay-price-a {
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+
+
+}
+
+.bg-1 {
+
+    background-position: -338px -231px;
+}
+
+.bg-2 {
+    background-position: -10px -231px;
+}
+
+.bg-3 {
+    background-position: -665px -10px;
+}
+
+.bg-4 {
+    background-position: -665px -230px;
+}
+
+.bg-5 {
+    background-position: -338px -10px;
+}
+
+.bg-6 {
+    background-position: -10px -10px;
+}
+
+
+.gallery-name {
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 80px;
+    top: 210px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+
+
+}
+
+.layer-item:hover > .gallery-name {
+    color: rgb(242, 101, 34);
+}
+
+.card:hover .overlay {
+    transition-duration: 0.4s;
+
+}
+footer{
+    width: 349px;
+    height: 12px;
+    clear: both;
+}
+.rights {
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 736px;
+    margin-left: 296px;
+
+}
+
+
