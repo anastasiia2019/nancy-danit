@@ -32,7 +32,10 @@
     font-weight: normal;
     font-style: normal;
 }
-
+body{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -43,7 +46,7 @@
     background: url("../img/header-bg-img.png");
     background-repeat: no-repeat;
     background-position: center;
-    flex-basis: 100vw;
+    flex-basis: 100%;
     background-attachment: fixed;
     background-size: cover;
     height: 40vh;
