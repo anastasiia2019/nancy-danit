@@ -23,15 +23,3 @@ alert(factorial(number));
 
 
 
-// function factorial(num) {
-//     if (num < 0) {
-//         return undefined;
-//     } else if (num === 0) {
-//         return 1;
-//     }
-//     else {
-//         return num * factorial(num - 1);
-//     }
-// }
-// let number=prompt('Enter a number to calculate factorial')
-// alert(factorial(number));
