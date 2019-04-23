@@ -17,16 +17,16 @@ function calculator() {
     switch (operation) {
         case "+":
             return (firstNumber + secondNumber);
-            break;
+            // break;
         case "-":
             return (firstNumber - secondNumber);
-            break;
+            // break;
         case "*":
             return (firstNumber * secondNumber);
-            break;
+            // break;
         case "/":
             return (firstNumber / secondNumber);
-            break;
+            // break;
 
         default :
             alert("i dont know such operations");
