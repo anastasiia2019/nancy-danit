@@ -1,25 +1,28 @@
 "use strict";
 //считаем число Фиббоначи
-function fib(n){
-    if (n===1||n===2) return 1;
-    else if(n<0) return undefined;
-    else return fib(n-2)+fib(n-1);
-}
-let userNum=+prompt('Enter a number to calculate fibonacci');
-alert(fib(userNum));
+let firstNumber = +(parseInt(prompt('Enter your first number : ', '')));
+let secondNumber = +(parseInt(prompt('Enter your second number : ', '')));
+let n = +(parseInt(prompt('Enter sequence number: ', '')));
 
-//Считаем число Факториал и отрицательное значение числа в тч
-function factorial(num) {
-    if (num === 0) {
-        return 1;
-    } else if (num > 0) {
-        return num * factorial(num - 1);
-    } else {
-        return Math.pow(-1, num) * Math.abs(num) * factorial(Math.abs(num) - 1);
+while (isNaN(firstNumber) || isNaN(secondNumber)) {
+    firstNumber = +(parseInt(prompt('Please,enter your first number: ', `${firstNumber}`)));
+    secondNumber = +(parseInt(prompt('Please,enter your second number: ', `${secondNumber}`)));
+    n = +(parseInt(prompt('Please,enter sequence number: ', `${n}`)));
+}
+function fib(firstNumber, secondNumber, n){
+    if(n>=0) {
+        if (n==1) return firstNumber;
+        else if (n==2) return secondNumber;
+        else return fib(firstNumber, secondNumber, n - 1) + fib(firstNumber, secondNumber, n - 2);
+    }
+    else {
+        if (n==-1) return firstNumber;
+        else if (n==-2) return firstNumber;
+        else return fib(firstNumber, secondNumber, n+ 1) + fib(firstNumber, secondNumber, n + 2);
     }
 }
-let number=prompt('Enter a number to calculate factorial')
-alert(factorial(number));
-
+let resultFib=fib(firstNumber,secondNumber,n);
+alert(resultFib);
+``
 
 
