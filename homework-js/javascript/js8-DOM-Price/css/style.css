@@ -1,0 +1,58 @@
+
+.number {
+    outline: none;
+}
+
+.input-border {
+    border: 3px solid green;
+
+}
+
+/*стиль поля спан*/
+.spanPrice {
+    border: 3px solid #000000;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 14px;
+
+}
+
+.display-none {
+    display: none;
+}
+
+.errorInput {
+    border: 3px solid red;
+}
+
+.valueInput {
+    color: green;
+}
+
+/*!*кнопка Х-закриття контейнера спан *!*/
+.btnStyle {
+    margin-left: 13px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 50px;
+    font: 9px Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
