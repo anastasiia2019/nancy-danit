@@ -1,0 +1,36 @@
+
+
+.tabs {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.tabs-menu {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+
+}
+
+.tab-m {
+    padding: 20px;
+    background-color: #23201D;
+    color: #937341;
+    cursor: pointer;
+}
+
+.target {
+    background-color:#937341 ;
+    color: #23201D;
+}
+
+.tab-c {
+    display: none;
+}
+.tab-c.active{
+    display: block;
+}
