@@ -1,0 +1,14 @@
+.image-to-show {
+    width: 400px;
+    height: 400px;
+}
+
+.images-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hidden{
+    display: none;
+}
