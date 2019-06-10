@@ -1,22 +1,46 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Banners</title>
-    <link rel="stylesheet" href="./css/style.css">
-
-
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-<!--<div class="images-wrapper">-->
-    <img src="./img/1.jpg" id="image" style="height: 300px; width: 300px;" class="mySlides" />
-<input type="button" value="Start slide show" onclick="startSlideShow()">
-<input type="button" value="Stop slide show" onclick="stopSlideShow()">
-<br>
-<div id="result"></div>
-<script src="js/js-slider.js"></script>
 
+<p id="timer"></p>
+
+<script>
+    let counter = 0;
+    const FULL_TIME = 10000;
+    function theInterval() {
+        counter++;
+        let remainingTime = FULL_TIME - (counter * 50);
+        let secs = Math.floor(remainingTime / 1000);
+        let mili = remainingTime % 1000;
+        timer.innerText = `Remaining time ${secs}:${mili}`;
+        if (remainingTime <= 0 ) {
+            counter = 0;
+        }
+    }
+
+    let interval = setInterval(theInterval, 50);
+
+    function pause() {
+        button1.disabled = true;
+        button2.disabled = false;
+        clearInterval(interval);
+    }
+
+    function resume() {
+
+        button1.disabled = false;
+        button2.disabled = true;
+        interval = setInterval(theInterval, 50);
+    }
+
+</script>
+
+
+<button id="button1" onclick="pause()">PAUSE</button>
+<button id="button2" onclick="resume()" disabled>RESUME</button>
 </body>
 </html>

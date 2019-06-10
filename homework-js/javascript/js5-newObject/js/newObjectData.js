@@ -57,3 +57,58 @@ console.log(newUser.getLogin());
 console.log(newUser.getAge());
 console.log(newUser.getPassword());
 
+
+
+//
+//
+// function createNewUser() {
+//     let user = {};
+//     setFirstName = function (value) {
+//         Object.defineProperty(this, 'firstName', {
+//             writable: true
+//         });
+//         this.firstName = value;
+//         Object.defineProperty(this, 'firstName', {
+//             writable: false
+//         });
+//     };
+//     setLastName = function (value) {
+//         Object.defineProperty(this, 'lastName', {
+//             writable: true
+//         });
+//         this.lastName = value;
+//         Object.defineProperty(this, 'lastName', {
+//             writable: false
+//         });
+//     };
+//     user.firstName = prompt('Enter name');
+//     user.lastName = prompt('Enter surname');
+//     user.birthday = prompt("Enter date of your birthday(dd.mm.yyyy");
+//     user.getLogin = function () {
+//         let LetterFirstName = this.firstName.charAt(0);
+//         return (LetterFirstName.toLowerCase() + this.lastName.toLowerCase());
+//     };
+//
+//     let yearOfbirthday = user.birthday.substring(6, 10);
+//     user.getAge =  function () {
+//         return new Date().getFullYear() - yearOfbirthday;
+//     };
+//     user.getPassword = function () {
+//         let letterFirstName = this.firstName.charAt(0);
+//         return (letterFirstName.toUpperCase() + user.lastName.toLowerCase() + yearOfbirthday);
+//
+//     };
+//
+//     return user;
+// }
+//
+// const user = createNewUser();
+// user.getLogin();
+// user.getPassword();
+// user.getAge();
+// console.log(user);
+// console.log(user.getAge());
+// console.log(user.getPassword());
+
+
+

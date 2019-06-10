@@ -1,3 +1,106 @@
-.myp{
-    color: red;
+@font-face {
+    font-family: 'Gotham-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/gotham-bold.woff") format('woff');
 }
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: inline;
+    margin: 32px 220px;
+    padding: 15px 0px 0px 0px;
+}
+
+.menu-item {
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    margin: 15px 65px;
+    font-family: 'Gotham-Bold', sans-serif;
+    color: #a04870;
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.img {
+    display: inline-block;
+    width: 100%;
+}
+
+.content {
+    background-color: #f5f6f8;
+    border: 1px solid transparent;
+    padding: 50px 113px;
+    font-family: "Gotham-Bold", sans-serif;
+    text-align: center;
+
+}
+
+.h1 {
+    font-family: 'Gotham-Bold', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    color: #313234;
+}
+
+.text {
+    text-align: center;
+    text-transform: none;
+    font-family: 'Gotham-Bold', sans-serif;
+    color: #373737;
+    font-size: 16px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    line-height: 26px; /* Приближение из-за подстановки шрифтов */
+    text-indent: 40px;
+    margin-top: 34px;
+}
+
+
+.button {
+    background-color: #a04870;
+    margin-top: 22px;
+    border-radius: 2px;
+    border: none;
+    display: inline-block;
+    width: 192px;
+    height: 51px;
+    cursor: default;
+
+}
+
+.button-link {
+    font-family: 'Gotham-Bold', sans-serif;
+    color: #ffffff;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 20px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 45px;
+    text-transform: uppercase;
+
+}
+
+.footer {
+    font-weight: 900;
+
+
+}
+
+.footer-text {
+    font-family: 'Gotham-Bold', sans-serif;
+    color: #373737;
+    padding: 47px 104px 45px 768px;
+    text-align: left;
+
+}
+

@@ -4,7 +4,7 @@ let currentTheme = "default";
 function changeTheme() {
     window.localStorage.setItem("theme", currentTheme);
 
-    let oldlink = document.getElementsByTagName("link").item(0);
+    let oldlink = document.getElementsByTagName("link").item(2);
 
     let newlink = document.createElement("link");
     newlink.setAttribute("rel", "stylesheet");
