@@ -1,0 +1,160 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+
+.header {
+    background-image: url("../img/background/img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+
+}
+
+.navbar {
+    background-color: rgba(39, 38, 42, 0.15);
+    background-position-y: 100px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 10px;
+}
+
+.container-navbar {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-logo {
+    display: inline-flex;
+    align-items: center;
+    color: #8d81ac;
+}
+
+.navbar-logo-img {
+    width: 43px;
+    height: 41px;
+}
+
+.navbar-logo-text {
+    color: #8d81ac;
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+
+}
+
+.navbar-menu {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-menu-link {
+    color: #8d81ac;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+    padding: 43px 24px;
+}
+
+.button-block {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.btn {
+    border-radius: 30px;
+    background-color: #8d81ac;
+    border: 0.1px solid #8d81ac;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    display: inline-flex;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #8d81ac;
+    border: 1px solid #8d81ac;
+
+}
+
+.btn-small {
+
+    font-size: 16px;
+    line-height: 15px;
+    padding: 11px 35px;
+
+}
+
+.header-title {
+    color: #ffffff;
+    font-size: 82px;
+    font-weight: 700;
+    line-height: 20.45px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.header-description {
+    color: #8d81ac;
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    line-height: 20.45px;
+    text-align: center;
+    margin-top: 18px;
+
+}
+
+.header-subDescription {
+    color: #848e97;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 454px;
+
+}
+
+.btn-large {
+    text-align: center;
+    font-size: 21px;
+    padding: 23px 63px;
+    bottom: -58px;
+    /*margin-top: 464px;*/
+    position: relative;
+
+}
+
+.header-doubleSubDescription {
+    color: #848e97;
+    font-size: 14px;
+    /*line-height: 15px;*/
+    text-align: center;
+    bottom: -69px;
+    position: relative;
+}
